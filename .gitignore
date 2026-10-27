@@ -1,0 +1,34 @@
+# --- Secrets: the line this lab is graded on -------------------------------
+# The repository is public. .env holds the API key and must never be pushed.
+.env
+.env.*
+!.env.example
+
+# A key pasted into any of these would also go public.
+*.key
+*.pem
+secrets.json
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# --- Editors, agents, OS ---------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agent scratch space. AGENTS.md itself is tracked on purpose.
+.agent/
+.agents/
