@@ -31,6 +31,12 @@ PARTS = (
     "Future Developments and Strategic Recommendations",
     "Investment Recommendation",
 )
+# The course requires these three lines at the end of anything public.
+REQUIRED_LINES = (
+    "*Disclaimer: written for FIN 67110 coursework. This is not investment advice.*",
+    f"*AI tools used: Claude Code (Anthropic) to build and check the desk; {MODEL} for the four roles.*",
+    "*Any remaining errors are my own.*",
+)
 CORE_CLAIMS = {
     1: "Total revenue, latest fiscal year",
     2: "Revenue growth versus the prior year",
@@ -310,6 +316,7 @@ def compile_report(run: dict, ra: dict, fa: dict, adv: dict) -> str:
     if notes:
         body += ["---", "Manager notes (checks still failing after one return):",
                  *[f"- {n}" for n in notes]]
+    body += ["", "---", *REQUIRED_LINES]
     return "\n".join(body)
 
 

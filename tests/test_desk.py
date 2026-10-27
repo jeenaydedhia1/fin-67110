@@ -136,3 +136,11 @@ def test_no_company_named_in_code():
     names = re.compile(r"(?i:costco|walmart|target corp|coca-cola|pepsico)|\b(COST|WMT|TGT|BJ|KO)\b")
     for name in CODE_FILES:
         assert not names.search((ROOT / name).read_text()), name
+
+
+def test_saved_reports_end_with_the_three_required_lines():
+    for report in ROOT.glob("runs/*/report.md"):
+        tail = report.read_text(encoding="utf-8").rstrip().splitlines()[-3:]
+        assert tail[0].startswith("*Disclaimer:"), report
+        assert tail[1].startswith("*AI tools used:"), report
+        assert tail[2] == "*Any remaining errors are my own.*", report

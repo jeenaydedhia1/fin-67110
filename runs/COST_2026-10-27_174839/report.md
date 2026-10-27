@@ -253,3 +253,9 @@ Revenue, earnings and cash flow are all growing at double-digit rates. Membershi
 
 #### Data caveat
 The 10-K shows operating cash flow of $15,817 and the release shows 15,825. The release statements are labelled "Subject to Reclassification". The Financial Analyst used the 10-K figure and says the difference does not change the conclusion.
+
+
+---
+*Disclaimer: written for FIN 67110 coursework. This is not investment advice.*
+*AI tools used: Claude Code (Anthropic) to build and check the desk; claude-sonnet-5-5 for the four roles.*
+*Any remaining errors are my own.*

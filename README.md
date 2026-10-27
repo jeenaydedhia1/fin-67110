@@ -33,6 +33,7 @@ public repository.
 | `week-02-notes.md` | My Week 2 one-line answers and reflections |
 | `runs/` | One folder per run: the filings as text, `facts.json`, `report.md`, `roles.json` |
 | `audits/` | Hand audits of the reports against the filings |
+| `audits/second-check-worksheet.md` | Independent AI second check of every audit row, with the line to open |
 
 ## Setup
 
@@ -106,3 +107,9 @@ Prices are the 2026-10-27 close (COST 992.13, KO 91.18).
 `verify.py` result: 11/11 core claims trace to the filings on both reports,
 plus P/E, every peer margin, the template and the recommendation. The
 "Your mark" column in `audits/` is the human sign-off.
+
+---
+
+*Disclaimer: written for FIN 67110 coursework. This is not investment advice.*
+*AI tools used: Claude Code (Anthropic) to build, test and second-check the desk and audits; claude-sonnet-5-5 for the four roles.*
+*Any remaining errors are my own.*
