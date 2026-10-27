@@ -1,0 +1,512 @@
+{
+  "company": {
+    "ticker": "COST",
+    "cik": "0000909832",
+    "name": "COSTCO WHOLESALE CORP /NEW"
+  },
+  "run_started": "2026-10-27T17:48:39",
+  "price": {
+    "value": 992.13,
+    "date": "2026-10-27"
+  },
+  "filings": {
+    "10-K": {
+      "form": "10-K",
+      "accession": "0000909832-26-000093",
+      "filing_date": "2026-10-07",
+      "period": "2026-08-30",
+      "items": "",
+      "accepted": "2026-10-06 21:13:15",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm"
+    },
+    "10-Q": {
+      "form": "10-Q",
+      "accession": "0000909832-26-000051",
+      "filing_date": "2026-06-03",
+      "period": "2026-05-10",
+      "items": "",
+      "accepted": "2026-06-03 16:43:00",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/0000909832-26-000051-index.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm"
+    },
+    "8-K": {
+      "form": "8-K",
+      "accession": "0000909832-26-000084",
+      "filing_date": "2026-09-24",
+      "period": "2026-09-24",
+      "items": "2.02,9.01",
+      "accepted": "2026-09-24 16:17:37",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/0000909832-26-000084-index.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm"
+    }
+  },
+  "fiscal_year": {
+    "fiscal_year_end": "2026-08-30",
+    "facts": {
+      "total_revenue": {
+        "concept": "total_revenue",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "Revenues",
+          "SalesRevenueNet"
+        ],
+        "current": {
+          "value": 303154000000,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 275235000000,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "operating_income": {
+        "concept": "operating_income",
+        "tag": "OperatingIncomeLoss",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "OperatingIncomeLoss"
+        ],
+        "current": {
+          "value": 11685000000,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 10383000000,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "net_income": {
+        "concept": "net_income",
+        "tag": "NetIncomeLoss",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "NetIncomeLoss"
+        ],
+        "current": {
+          "value": 9226000000,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 8099000000,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "diluted_eps": {
+        "concept": "diluted_eps",
+        "tag": "EarningsPerShareDiluted",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "EarningsPerShareDiluted"
+        ],
+        "current": {
+          "value": 20.76,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 18.21,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "stockholders_equity": {
+        "concept": "stockholders_equity",
+        "tag": "StockholdersEquity",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "StockholdersEquity",
+          "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+        ],
+        "current": {
+          "value": 35803000000,
+          "period_end": "2026-08-30",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 29164000000,
+          "period_end": "2025-08-31",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "long_term_debt_noncurrent": {
+        "concept": "long_term_debt_noncurrent",
+        "tag": "LongTermDebtNoncurrent",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "LongTermDebtNoncurrent"
+        ],
+        "current": {
+          "value": 3914000000,
+          "period_end": "2026-08-30",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 5713000000,
+          "period_end": "2025-08-31",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "long_term_debt_current": {
+        "concept": "long_term_debt_current",
+        "tag": "LongTermDebtCurrent",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "LongTermDebtCurrent"
+        ],
+        "current": {
+          "value": 2248000000,
+          "period_end": "2026-08-30",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 75000000,
+          "period_end": "2025-08-31",
+          "period_start": null,
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "cash_from_operations": {
+        "concept": "cash_from_operations",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "NetCashProvidedByUsedInOperatingActivities"
+        ],
+        "current": {
+          "value": 15817000000,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 13335000000,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      },
+      "capex": {
+        "concept": "capex",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "tag_latest_period_end": "2026-08-30",
+        "candidates_seen": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "current": {
+          "value": 6435000000,
+          "period_end": "2026-08-30",
+          "period_start": "2025-09-01",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 5498000000,
+          "period_end": "2025-08-31",
+          "period_start": "2024-09-02",
+          "accession": "0000909832-26-000093",
+          "form": "10-K",
+          "filed": "2026-10-07"
+        }
+      }
+    },
+    "period_problems": []
+  },
+  "ratios": [
+    {
+      "name": "revenue_growth",
+      "value": 0.10143695387577889,
+      "arithmetic": "303,154 / 275,235 - 1 = 10.14%",
+      "definition": "total revenue this year / total revenue prior year - 1"
+    },
+    {
+      "name": "operating_margin",
+      "value": 0.03854476602650798,
+      "arithmetic": "11,685 / 303,154 = 3.85%",
+      "definition": "operating income / total revenue"
+    },
+    {
+      "name": "return_on_average_equity",
+      "value": 0.284021118413964,
+      "arithmetic": "9,226 / ((35,803 + 29,164) / 2 = 32,484) = 28.40%",
+      "definition": "net income / average of this and last year-end stockholders' equity"
+    },
+    {
+      "name": "debt_to_equity",
+      "value": 0.17210848252939698,
+      "arithmetic": "(3,914 + 2,248 current) / 35,803 = 0.17x",
+      "definition": "long-term debt including current portion / stockholders' equity"
+    },
+    {
+      "name": "free_cash_flow",
+      "value": 9382000000,
+      "arithmetic": "15,817 - 6,435 = 9,382 (USD millions)",
+      "definition": "cash from operations - additions to property and equipment"
+    },
+    {
+      "name": "pe_ratio",
+      "value": 47.79046242774566,
+      "arithmetic": "992.13 / 20.76 = 47.8x",
+      "definition": "price given to the desk / latest fiscal year GAAP diluted EPS"
+    }
+  ],
+  "quarter_release_lines": {
+    "revenue_lines": [
+      "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "Net sales $ 93,873 $ 84,432 $ 297,247 $ 269,912",
+      "Total revenue 95,723 86,156 303,154 275,235"
+    ],
+    "eps_lines": [
+      "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+    ]
+  },
+  "peers": [
+    {
+      "ticker": "WMT",
+      "cik": "0000104169",
+      "name": "Walmart Inc.",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0000104169-26-000055",
+      "facts": {
+        "total_revenue": {
+          "concept": "total_revenue",
+          "tag": "Revenues",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "Revenues",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet"
+          ],
+          "current": {
+            "value": 713163000000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-01",
+            "accession": "0000104169-26-000055",
+            "form": "10-K",
+            "filed": "2026-03-13"
+          },
+          "prior": {
+            "value": 680985000000,
+            "period_end": "2025-01-31",
+            "period_start": "2024-02-01",
+            "accession": "0000104169-26-000055",
+            "form": "10-K",
+            "filed": "2026-03-13"
+          }
+        },
+        "operating_income": {
+          "concept": "operating_income",
+          "tag": "OperatingIncomeLoss",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "OperatingIncomeLoss"
+          ],
+          "current": {
+            "value": 29825000000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-01",
+            "accession": "0000104169-26-000055",
+            "form": "10-K",
+            "filed": "2026-03-13"
+          },
+          "prior": {
+            "value": 29348000000,
+            "period_end": "2025-01-31",
+            "period_start": "2024-02-01",
+            "accession": "0000104169-26-000055",
+            "form": "10-K",
+            "filed": "2026-03-13"
+          }
+        }
+      },
+      "operating_margin": {
+        "name": "operating_margin",
+        "value": 0.041820733829433104,
+        "arithmetic": "29,825 / 713,163 = 4.18%",
+        "definition": "operating income / total revenue"
+      }
+    },
+    {
+      "ticker": "TGT",
+      "cik": "0000027419",
+      "name": "TARGET CORP",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0000027419-26-000016",
+      "facts": {
+        "total_revenue": {
+          "concept": "total_revenue",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet",
+            "Revenues"
+          ],
+          "current": {
+            "value": 104780000000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-02",
+            "accession": "0000027419-26-000016",
+            "form": "10-K",
+            "filed": "2026-03-11"
+          },
+          "prior": {
+            "value": 106566000000,
+            "period_end": "2025-02-01",
+            "period_start": "2024-02-04",
+            "accession": "0000027419-26-000016",
+            "form": "10-K",
+            "filed": "2026-03-11"
+          }
+        },
+        "operating_income": {
+          "concept": "operating_income",
+          "tag": "OperatingIncomeLoss",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "OperatingIncomeLoss"
+          ],
+          "current": {
+            "value": 5117000000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-02",
+            "accession": "0000027419-26-000016",
+            "form": "10-K",
+            "filed": "2026-03-11"
+          },
+          "prior": {
+            "value": 5566000000,
+            "period_end": "2025-02-01",
+            "period_start": "2024-02-04",
+            "accession": "0000027419-26-000016",
+            "form": "10-K",
+            "filed": "2026-03-11"
+          }
+        }
+      },
+      "operating_margin": {
+        "name": "operating_margin",
+        "value": 0.048835655659477,
+        "arithmetic": "5,117 / 104,780 = 4.88%",
+        "definition": "operating income / total revenue"
+      }
+    },
+    {
+      "ticker": "BJ",
+      "cik": "0001531152",
+      "name": "BJ's Wholesale Club Holdings, Inc.",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0001531152-26-000007",
+      "facts": {
+        "total_revenue": {
+          "concept": "total_revenue",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "current": {
+            "value": 21457274000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-02",
+            "accession": "0001531152-26-000007",
+            "form": "10-K",
+            "filed": "2026-03-12"
+          },
+          "prior": {
+            "value": 20501804000,
+            "period_end": "2025-02-01",
+            "period_start": "2024-02-04",
+            "accession": "0001531152-26-000007",
+            "form": "10-K",
+            "filed": "2026-03-12"
+          }
+        },
+        "operating_income": {
+          "concept": "operating_income",
+          "tag": "OperatingIncomeLoss",
+          "tag_latest_period_end": "2026-01-31",
+          "candidates_seen": [
+            "OperatingIncomeLoss"
+          ],
+          "current": {
+            "value": 816604000,
+            "period_end": "2026-01-31",
+            "period_start": "2025-02-02",
+            "accession": "0001531152-26-000007",
+            "form": "10-K",
+            "filed": "2026-03-12"
+          },
+          "prior": {
+            "value": 772206000,
+            "period_end": "2025-02-01",
+            "period_start": "2024-02-04",
+            "accession": "0001531152-26-000007",
+            "form": "10-K",
+            "filed": "2026-03-12"
+          }
+        }
+      },
+      "operating_margin": {
+        "name": "operating_margin",
+        "value": 0.03805721080879146,
+        "arithmetic": "817 / 21,457 = 3.81%",
+        "definition": "operating income / total revenue"
+      }
+    }
+  ]
+}
